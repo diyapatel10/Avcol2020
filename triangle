@@ -29,10 +29,7 @@ namespace Triangle
             {
                 Console.WriteLine("The length of the side cannot be 0 or negative \nPlease enter a positive value : ");
                 lengthB = Convert.ToDouble(Console.ReadLine());
-            }
-
-            //invalid length
-            
+            }          
             Console.WriteLine("Enter the length of side C: ");
             lengthC = Convert.ToDouble(Console.ReadLine());
             while (lengthC <= 0) //input validation 
